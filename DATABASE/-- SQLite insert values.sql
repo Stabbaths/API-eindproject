@@ -7,4 +7,4 @@ insert into tag (naam)
 values ("installeren"), ("setup"), ("configureren");
 
 insert into video (id_link, id_tag)
-values (1, 2)
+values (1, 2);
