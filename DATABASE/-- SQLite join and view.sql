@@ -1,4 +1,5 @@
 -- SQLite
+DROP VIEW allJoined;
 
 CREATE VIEW allJoined AS
 SELECT video.*, link.link, link.naam as linkNaam, tag.naam as tagNaam FROM video
